@@ -1,14 +1,25 @@
-#smallPic{
-    max-width: 20%;
+.all{
+    background-image: url("images/DSC_0038.png");
+}
+.galleryDiv{
+    margin: auto;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(13, 22, 13);
+}
+
+.galleryDiv img{
+    width: 300px;
     transition: 0.1s;
-    border-radius: 10px;
+    border-radius: 5px;
+    margin: 0.4%;
     /* border-radius: 10px;
     border: 3px solid rgb(255, 255, 255);
     max-width: 50%;
     height: auto; */
 }
 
-
 #smallPic:hover{
-    transform: scale(1.5);
+    transform: scale(1.3);
 }
