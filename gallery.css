@@ -30,25 +30,31 @@
     border-radius: 5px;
     }
 
-#titlesHome{
-    color: rgb(247, 247, 247);
-}
+/* use this to remove the buttons from .hide and .show
+ find(".lb-prev, .lb-next").hide()): */
 
-.Container{
-    padding: 2%;
-    display: flex;
+.galleryDiv{
+    margin: auto;
+    /* border: 3px solid green;
+    background-color: rgb(13, 22, 13); */
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
+    
 }
 
-#picDiv, #phaDiv{
-   flex-basis: 50%; 
-}
-
-
-#picDiv img{
-    width: 80%;
+.galleryDiv img{
+    width: 20%;
+    transition: 0.1s;
     border-radius: 5px;
+    margin: 0.4%;
     border: 3px solid rgb(255, 255, 255);
-
+    /* border-radius: 10px;
+    
+    max-width: 50%;
+    height: auto; */
 }
 
+#smallPic:hover{
+    transform: scale(1.3);
+}
