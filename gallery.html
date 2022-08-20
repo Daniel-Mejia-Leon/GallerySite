@@ -1,9 +1,14 @@
 <html>
     <head>
     <title>Gallery H</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <link rel="stylesheet" href="gallery.css">
     <link rel="stylesheet" href="lightbox.min.css">
-    <script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet"> 
     </head>
     <body class="all">
         <div>
@@ -75,7 +80,7 @@
         </div>
     </body>
 
-
+<!--Los scripts siempre van hasta abajo porque es lo ultimo que tiene que cargar --->
 <script>
     lightbox.option({
         'positionFromTop': 20,
@@ -84,6 +89,7 @@
         'wrapAround': true
     })
 </script>
+<script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
 
 
 </html>

@@ -1,3 +1,18 @@
+:root{
+    --titulos:'Baloo 2', cursive;
+    --parrafos:'Montserrat', sans-serif;
+}
+/*mire maje root es para crear variables si quiere cambiar la tipografias solo busque google fonts y ahi le van a salir un vergo
+esto es para que no se mire tan mierda*/
+
+h1, h2, h3{
+    font-family: var(--titulos);
+}
+
+p, a{
+    font-family: var(--parrafos);
+}
+
 .all{
     background-image: url("images/DSC_0058.JPG");
 }
@@ -30,6 +45,11 @@
     border-radius: 5px;
     }
 
+.menu a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
 /* use this to remove the buttons from .hide and .show
  find(".lb-prev, .lb-next").hide()): */
 
@@ -53,6 +73,10 @@
     
     max-width: 50%;
     height: auto; */
+}
+
+.galleryDiv img:hover{
+    border: 5px solid black;
 }
 
 #smallPic:hover{
