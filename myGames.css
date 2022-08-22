@@ -53,23 +53,25 @@
     text-align: center;
 }
 
-#picDiv, #phaDiv{
-   flex-basis: 50%; 
-}
-
-
-#picDiv img{
-    width: 80%;
-    border-radius: 5px;
-    border: 3px solid rgb(255, 255, 255);
-
-}
-
 .Container3Pics img{
     width: 70%;
     margin: 1%;
     border-radius: 5px;
     border: 3px solid rgb(255, 255, 255);
-
 }
 
+.downloadContainer{
+    text-align: center;
+}
+
+#DownloadTextButton{
+    color: rgb(2, 2, 2);
+    display: inline-flex;
+    background-color: rgb(2, 96, 238);
+    padding: 0.5%;
+    border-radius: 5px;
+}
+
+.downloadContainer a:hover{
+    color: rgb(211, 31, 31);
+}
