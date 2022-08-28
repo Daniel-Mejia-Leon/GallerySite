@@ -1,31 +1,40 @@
 .all{
-    background-image: url("images/DSC_0058.JPG");
+    background-color: black;
 }
 
 #mainTitle{
+    background-image: url(images/Screenshotmanes.png);
     text-align: center;
-    color: white;
-    font-size: 400%;
+    color: rgb(255, 255, 255);
+    border-radius: 20px 20px 0px 0px;
+    font-size: 650%;
+    padding-bottom: 1%;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position-x: 100%;
+    background-position-y: 30%;
+    text-shadow: 3px 1px black ;
+
 }
 
+
+
 .menu{
-    text-align: center;
-    margin-top:  10px;
-    margin-bottom: 20px; 
-    /* margin-bottom: 25px;
+    text-align:center;
     border: solid  black 1px;
-    background-color: #fbfdff;*/
+    background-color: #ffffff;
+    border-radius: 7px 7px 20px 20px;
+    margin-bottom: 1%;
+
 }
 
 .menu  a{
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
     font-size: 2em;
     text-decoration: none;
-    border: 2px solid rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    margin-top: 10px;
+    color: rgb(0, 0, 0);
     margin-bottom: 10px;
-    padding: 5px 10px;
+    padding: 5px 5px;
     margin: 1%;
     border-radius: 5px;
     }
