@@ -3,14 +3,16 @@
 }
 
 #mainTitle{
-    background-image: url(images/DSC_1084Copy.JPG);
+    /* background-image: url(images/DSC_1557S.jpg); */
+    /* background-image: url(images/DSC_1636S.jpg); */
+    background-image: url(images/DSC_1743S.jpg);
     text-align: center;
     color: rgb(255, 255, 255);
     border-radius: 20px 20px 0px 0px;
     font-size: 60px;
     padding-bottom: 1%;
     background-size: cover;
-    background-position-y: 50%;
+    background-position-y: 51%;
     text-shadow: 3px 1px black ;
 
 }
@@ -60,6 +62,7 @@
     border: 3px solid rgb(255, 255, 255);
 
 }
+
 
 #phaDiv{
     margin: auto;
