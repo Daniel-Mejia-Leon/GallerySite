@@ -1,17 +1,18 @@
 .all{
-    background-image: url("images/DSC_0058.JPG");
+    background-image: url("images/DSC_0058S.jpg");
 }
 
 #mainTitle{
     /* background-image: url(images/DSC_1557S.jpg); */
+    /* background-image: url(images/DSC_1636S.jpg); */
     background-image: url(images/DSC_1743S.jpg);
     text-align: center;
     color: rgb(255, 255, 255);
     border-radius: 20px 20px 0px 0px;
-    font-size: 650%;
+    font-size: 60px;
     padding-bottom: 1%;
     background-size: cover;
-    background-position-y: 52%;
+    background-position-y: 51%;
     text-shadow: 3px 1px black ;
 
 }
@@ -29,7 +30,7 @@
 
 .menu  a{
     /* background-color: rgb(0, 0, 0); */
-    font-size: 2em;
+    font-size: 25px;
     text-decoration: none;
     color: rgb(0, 0, 0);
     margin-bottom: 10px;
@@ -42,21 +43,65 @@
  find(".lb-prev, .lb-next").hide()): */
 
 .galleryDiv{
-    margin: auto;
-    /* border: 3px solid green;
-    background-color: rgb(13, 22, 13); */
+    background-color: rgba(250, 235, 215, 0.20);
+    border-radius: 15px;
+    margin-bottom: 2%;
+    /*background-color: rgb(13, 22, 13); */
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
     
 }
 
+#introText{
+    background-color: #000000ce;
+    margin: 0px 10px 10px 10px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#locations{
+    display: flex;
+    justify-content: center;
+}
+
+#locations a{
+    text-decoration: none;
+    color: black;
+}
+
+#location{
+    background-color: white;
+    margin: 10px;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 5px;    
+}
+
+#galleryDivTitle{
+    color: white;
+    font-size: 29px;
+}
+
+#fromMyBalcony{
+    margin: 10px;
+    color: white;
+    font-size: 40px;
+    text-shadow: 3px 1px black ;
+}
+
+#galleryDivP{
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+}
+
 .galleryDiv img{
-    width: 20%;
+    width: 315px;
     transition: 0.1s;
     border-radius: 5px;
     margin: 0.4%;
-    border: 3px solid rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
     /* border-radius: 10px;
     
     max-width: 50%;
@@ -64,5 +109,5 @@
 }
 
 #smallPic:hover{
-    transform: scale(1.3);
+    transform: scale(1.05);
 }

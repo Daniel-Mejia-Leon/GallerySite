@@ -1,5 +1,5 @@
 .all{
-    background-image: url("images/DSC_0058.JPG");
+    background-image: url("images/DSC_0058S.jpg");
 }
 
 #mainTitle{
@@ -7,7 +7,7 @@
     text-align: center;
     color: rgb(255, 255, 255);
     border-radius: 20px 20px 0px 0px;
-    font-size: 650%;
+    font-size: 60px;
     padding-bottom: 1%;
     background-size: cover;
     background-position-y: 50%;
@@ -28,7 +28,7 @@
 
 .menu  a{
     /* background-color: rgb(0, 0, 0); */
-    font-size: 2em;
+    font-size: 25px;
     text-decoration: none;
     color: rgb(0, 0, 0);
     margin-bottom: 10px;
@@ -41,9 +41,12 @@
 }
 
 .Container{
+    margin: 1%;
+    background-color: rgba(250, 235, 215, 0.20);
     padding: 2%;
     display: flex;
     text-align: center;
+    border-radius: 15px;
 }
 
 #picDiv, #phaDiv{
@@ -58,3 +61,6 @@
 
 }
 
+#phaDiv{
+    margin: auto;
+}

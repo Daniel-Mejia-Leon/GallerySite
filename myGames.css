@@ -1,5 +1,6 @@
 .all{
-    background-color: black;
+    background-color: rgb(107, 59, 59);
+    margin: 0%;
 }
 
 #mainTitle{
@@ -7,7 +8,7 @@
     text-align: center;
     color: rgb(255, 255, 255);
     border-radius: 20px 20px 0px 0px;
-    font-size: 650%;
+    font-size: 60px;
     padding-bottom: 1%;
     background-repeat: no-repeat;
     /* background-size: contain; */
@@ -23,14 +24,14 @@
     text-align:center;
     border: solid  black 1px;
     background-color: #ffffff;
-    border-radius: 7px 7px 20px 20px;
+    border-radius: 0px 0px 20px 20px;
     margin-bottom: 1%;
 
 }
 
 .menu  a{
     /* background-color: rgb(0, 0, 0); */
-    font-size: 2em;
+    font-size: 25px;
     text-decoration: none;
     color: rgb(0, 0, 0);
     margin-bottom: 10px;
@@ -38,6 +39,21 @@
     margin: 1%;
     border-radius: 5px;
     }
+
+.youtubeContainer{
+    background-color: #ffffff;
+    display: flex;
+}
+
+.youtube{
+    flex-basis: 33%;
+    background-color: rgb(255, 9, 9);
+}
+
+.youtube iframe{
+    text-align: center;
+    width: 100%;
+}
 
 #My_first_3D_videogame{
     
@@ -50,7 +66,11 @@
     background-color: rgba(250, 235, 215, 0.24);
     border-radius: 10px;
     margin-top: 40px;
+    text-align: center;
 }
+
+
+
 
 .firstContainerText{
     padding: 0% 3% 0% 3%;
@@ -63,7 +83,7 @@
 }
 
 .Container3Pics img{
-    width: 70%;
+    width: 380px;
     margin: 1%;
     border-radius: 5px;
     border: 3px solid rgb(255, 255, 255);
