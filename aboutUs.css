@@ -1,5 +1,4 @@
 body{
-    background-image: url("./images/guate.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -93,11 +92,12 @@ body{
     }
     
     .testimony_img{
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
         border-radius: 50%;
         object-fit: cover;
         object-position: 50% 80%;
+        margin-right:100px ;
     }
     
     .testimony_text{
@@ -144,6 +144,7 @@ body{
         transition: padding .3s;
         border: 1px solid #5454D4;
         border-radius: 6px;
+        margin-bottom: 15px;
     }
     
     .questions_padding--add{
@@ -211,4 +212,5 @@ body{
         text-decoration: none;
         padding: 13px 30px;
         border-radius: 32px;
+        margin-left: 650px;
     }
