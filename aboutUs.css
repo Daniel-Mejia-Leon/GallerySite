@@ -9,7 +9,6 @@ body{
     background-image: url(images/DSC_1743S.jpg);
     text-align: center;
     color: rgb(255, 255, 255);
-    border-radius: 20px 20px 0px 0px;
     font-size: 650%;
     padding-bottom: 1%;
     background-size: cover;
@@ -17,6 +16,22 @@ body{
     text-shadow: 3px 1px black ;
 
 }
+
+
+#mainTitle{
+    background-image: url(images/Screenshotmanes.png);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    padding-bottom: 1%;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position-x: 100%;
+    background-position-y: 30%;
+    text-shadow: 3px 1px black ;
+
+}
+
 
 
 .menu{
@@ -30,7 +45,7 @@ body{
 
 .menu  a{
     /* background-color: rgb(0, 0, 0); */
-    font-size: 2em;
+    font-size: 25px;
     text-decoration: none;
     color: rgb(0, 0, 0);
     margin-bottom: 10px;
@@ -38,6 +53,7 @@ body{
     margin: 1%;
     border-radius: 5px;
     }
+
 
     .testimony{
         background-color:white;
