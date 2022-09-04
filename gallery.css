@@ -56,13 +56,13 @@
 
 #galleryDivTitle{
     color: white;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 #galleryDivP{
     margin: 10px 0px 10px 0px;
     color: white;
-    font-size: 17px;
+    font-size: 15px;
 }
 .galleryDiv{
     display: flex;

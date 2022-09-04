@@ -6,34 +6,19 @@ body{
 }
 
 #mainTitle{
-    /* background-image: url(images/DSC_1557S.jpg); */
-    background-image: url(images/DSC_1743S.jpg);
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 650%;
-    padding-bottom: 1%;
+    background-image: url(images/DSC_1557S1.jpg);
     background-size: cover;
-    background-position-y: 52%;
-    text-shadow: 3px 1px black ;
-
-}
-
-
-#mainTitle{
-    background-image: url(images/Screenshotmanes.png);
+    color: white;
     text-align: center;
-    color: rgb(255, 255, 255);
     font-size: 60px;
     padding-bottom: 1%;
     background-repeat: no-repeat;
     /* background-size: contain; */
-    background-position-x: 100%;
-    background-position-y: 30%;
+    
+    background-position-y: 29%;
     text-shadow: 3px 1px black ;
 
 }
-
-
 
 .menu{
     text-align:center;
@@ -46,7 +31,7 @@ body{
 
 .menu  a{
     /* background-color: rgb(0, 0, 0); */
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     color: rgb(0, 0, 0);
     margin-bottom: 10px;
