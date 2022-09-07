@@ -1,6 +1,6 @@
 <html>
     <head>
-    <title>Gallery H</title>
+    <title>Gallery</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,11 +36,36 @@
         <div class="galleryDiv"> 
 
             <div class="textover">
-                <img src="images/DSC_0038S.jpg" alt="">
-                <p>Yellow-vented Bulbul</p>
+                <!--image slider start-->
+                <div id="sliderDiv">
+                    <div class="slideshow-container">
+
+                        <!-- Full-width images with number and caption text -->
+                        <div class="mySlides fade">
+                            <img src="/images/DSC_0196S.jpg" id="slideImg" >
+                        </div>
+
+                        <div class="mySlides fade">
+                        <img src="/images/DSC_0123S.jpg" id="slideImg" >
+                        </div>
+                    
+                        <div class="mySlides fade">
+                        <img src="/images/DSC_0140S.jpg" id="slideImg" >
+                        </div>
+                    
+                        <div class="mySlides fade">
+                        <img src="/images/DSC_0193S.jpg" id="slideImg" >
+                        <!-- <div class="text">Butterfly</div> -->
+                        </div>
+                        
+                    </div>
+                </div> 
+                <p>Pasig Rainforest Park</p>
+                <!-- <img src="images/DSC_0038S.jpg" alt="">
+                <p>Yellow-vented Bulbul</p> -->
             </div>
             <div class="textover">
-                <img src="images/DSC_0196S.jpg" alt="">
+                <img src="images/DSC_01961S.jpg" alt="">
                 <p>Avilon Zoo</p>
             </div>
             <div class="textover">
@@ -55,10 +80,10 @@
                 <img src="images/DSC_0470S.jpg" alt="">
                 <p>Avilon Zoo</p>
             </div>
-            <div class="textover">
+            <!-- <div class="textover">
                 <img src="images/DSC_0193S.jpg" alt="">
                 <p>(Looking for the ID)</p>
-            </div>            
+            </div>             -->
             <div class="textover">
                 <img src="images/DSC_0270S.jpg" alt="">
                 <p>Yellow-vented Bulbul</p>
@@ -111,14 +136,14 @@
                 <img id="smallPic" src="images/DSC_1273S.jpg" alt="">
                 <p>Maya bird streching its neck</p>
             </div>            
-            <div class="textover">
+            <!-- <div class="textover">
                 <img id="smallPic" src="images/DSC_0140S.jpg" alt="">
                 <p>Pasig Rainforest Park</p>
             </div>            
             <div class="textover">
                 <img id="smallPic" src="images/DSC_0123S.jpg" alt="">
                 <p>Pasig Rainforest Park</p>
-            </div>            
+            </div>             -->
             <div class="textover">
                 <img id="smallPic" src="images/DSC_0415S.jpg" alt="">
                 <p>Avilon Zoo</p>
@@ -151,10 +176,10 @@
                 <img id="smallPic" src="images/DSC_0056S.jpg" alt="">
                 <p>Crocodile teeth</p>
             </div>            
-            <div class="textover">
+            <!-- <div class="textover">
                 <img id="smallPic" src="images/DSC_0447S.jpg" alt="">
                 <p>Avilon Zoo</p>
-            </div>            
+            </div>             -->
             <div class="textover">
                 <img id="smallPic" src="images/DSC_0709S.jpg" alt="">
                 <p>Collared Kingfisher</p>
@@ -249,6 +274,20 @@
         'maxWidth': 800,    
         'wrapAround': true
     })
+    let slideIndex = 1;
+    moveSlides();
+
+    function moveSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length ) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(moveSlides, 3000); // Change image every 2 seconds
+    } 
 </script>
 
 

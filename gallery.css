@@ -10,7 +10,7 @@
     background-image: url(images/DSC_1743S.jpg);
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 60px;
+    font-size: 40px;
     padding-bottom: 1%;
     background-size: cover;
     background-position-y: 51%;
@@ -130,10 +130,10 @@
     /* Cosmetics */
     box-sizing:border-box;
     color: rgba(255, 255, 255, 0);
-    width: 70%;
+    width: 60%;
     background-color: rgba(0, 0, 0, 0);
     text-align: center;
-    transform: translate(21%, 0);
+    transform: translate(31%, 0);
     
 }
 
@@ -143,7 +143,7 @@
     padding: 3px;
     bottom: 0;
     left: 0;
-    font-size: 2vw;
+    font-size: 2.5vw;
     /* Cosmetics */
     box-sizing:border-box;
     color: white;
@@ -152,3 +152,77 @@
     text-align: center;
     transform: translate(21%, 0);
 }
+
+/* SLIDER STARTS */
+
+#sliderDiv{
+    box-sizing:border-box;
+    
+
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 730px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+display: none;
+}
+
+/* Caption text 
+.text {
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}*/
+
+#slideImg{
+    border-radius: 5px;
+    width:98%;
+}
+
+#slideImg :hover{
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+/* The dots/bullets/indicators */
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+#dots{
+    
+}
+
+.active, .dot:hover {
+/* background-color: #717171; */
+}
+
+/* Fading animation */
+.fade {
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+

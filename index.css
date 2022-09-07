@@ -10,7 +10,7 @@
     background-image: url(images/DSC_1084Copy.jpg);
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 60px;
+    font-size: 40px;
     padding-bottom: 1%;
     background-size: cover;
     background-position-y: 48%;
@@ -64,7 +64,9 @@
 
 }
 
-
 #phaDiv{
     margin: auto;
 }
+
+
+
